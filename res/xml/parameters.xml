@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+			android:key="antibanding"
+			android:title="@string/antibanding"
+			android:summary="@string/unknown"
+			android:entries="@array/antibanding_array"
+			android:entryValues="@array/antibanding_array"
+			android:dialogTitle="@string/antibanding" />
+	<ListPreference
+			android:key="effect"
+			android:title="@string/effect"
+			android:summary="@string/unknown"
+			android:entries="@array/effect_array"
+			android:entryValues="@array/effect_array"
+			android:dialogTitle="@string/effect" />
+	<ListPreference
+			android:key="flash_mode"
+			android:title="@string/flash_mode"
+			android:summary="@string/unknown"
+			android:entries="@array/flash_mode_array"
+			android:entryValues="@array/flash_mode_array"
+			android:dialogTitle="@string/flash_mode" />
+	<ListPreference
+			android:key="focus_mode"
+			android:title="@string/focus_mode"
+			android:summary="@string/unknown"
+			android:entries="@array/focus_mode_array"
+			android:entryValues="@array/focus_mode_array"
+			android:dialogTitle="@string/focus_mode" />
+	<ListPreference
+			android:key="scene_mode"
+			android:title="@string/scene_mode"
+			android:summary="@string/unknown"
+			android:entries="@array/scene_mode_array"
+			android:entryValues="@array/scene_mode_array"
+			android:dialogTitle="@string/scene_mode" />
+	<ListPreference
+			android:key="white_balance"
+			android:title="@string/white_balance"
+			android:summary="@string/unknown"
+			android:entries="@array/white_balance_array"
+			android:entryValues="@array/white_balance_array"
+			android:dialogTitle="@string/white_balance" />
+</PreferenceScreen>

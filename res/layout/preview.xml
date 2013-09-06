@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayoutMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical"
+    android:keepScreenOn="false" >
+
+    <!-- ボタン領域 -->
+
+    <TableRow
+        android:id="@+id/TableRowMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+<!-- 
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:text="CAMERA" />
+ -->
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="画像送信" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRowMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editText_sub"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="キャプション送信" />
+
+    <SurfaceView
+        android:id="@+id/SurfaceViewMain"
+        android:layout_width="100px"
+        android:layout_height="100px" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="設定" />
+
+    <TextView
+        android:id="@+id/textView_radian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

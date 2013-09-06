@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="antibanding_array">
+		<item>50hz</item>
+		<item>60hz</item>
+		<item>auto</item>
+		<item>off</item>
+	</string-array>
+	<string-array name="effect_array">
+		<item>aqua</item>
+		<item>blackboard</item>
+		<item>mono</item>
+		<item>negative</item>
+		<item>none</item>
+		<item>posterize</item>
+		<item>sepia</item>
+		<item>solarize</item>
+		<item>whiteboard</item>
+	</string-array>
+	<string-array name="flash_mode_array">
+		<item>auto</item>
+		<item>off</item>
+		<item>on</item>
+		<item>red-eye</item>
+		<item>torch</item>
+	</string-array>
+	<string-array name="focus_mode_array">
+		<item>auto</item>
+		<item>fixed</item>
+		<item>infinity</item>
+		<item>macro</item>
+	</string-array>
+	<string-array name="scene_mode_array">
+		<item>action</item>
+		<item>auto</item>
+		<item>beach</item>
+		<item>candlelight</item>
+		<item>fireworks</item>
+		<item>landscape</item>
+		<item>night</item>
+		<item>night-portrait</item>
+		<item>party</item>
+		<item>portrait</item>
+		<item>snow</item>
+		<item>sports</item>
+		<item>steadyphoto</item>
+		<item>sunset</item>
+		<item>theatre</item>
+	</string-array>
+	<string-array name="white_balance_array">
+		<item>auto</item>
+		<item>cloudy-daylight</item>
+		<item>daylight</item>
+		<item>fluorescent</item>
+		<item>incandescent</item>
+		<item>shade</item>
+		<item>twilight</item>
+		<item>warm-fluorescent</item>
+	</string-array>
+</resources>
